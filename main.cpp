@@ -14,13 +14,13 @@ int main()
     XmlLoadSettings settings = XmlLoadSettings();
     settings.ElementContentWhiteSpace(false);
 
-	XmlDocument doc = XmlDocument::LoadFromFileAsync(file, settings).get();
+    XmlDocument doc = XmlDocument::LoadFromFileAsync(file, settings).get();
 
     XmlElement root = doc.DocumentElement();
     XmlNodeList childNodes = root.ChildNodes();
 
     printf("There are %d elements\n", childNodes.Size());
-	printf("====\n");
+    printf("====\n");
     for (IXmlNode child : childNodes)
     {
         auto childs = child.ChildNodes();
