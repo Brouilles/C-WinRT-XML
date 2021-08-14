@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<users>
+  <user id="1">
+    <name>John Doe</name>
+    <occupation>gardener</occupation>
+  </user>
+  <user id="2">
+    <name>Jane Doe</name>
+    <occupation>teacher</occupation>
+  </user>
+  <user id="3">
+    <name>Roger Roe</name>
+    <occupation>driver</occupation>
+  </user>
+  <user id="4">
+    <name>Lucia Smith</name>
+    <occupation>shopkeeper</occupation>
+  </user>
+</users>
